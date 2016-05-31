@@ -11,7 +11,7 @@ readData08_09 <- function(x)
 {
   #pull in information from csv
   #census.raw <- read.csv(paste0("C:/Users/thema/Desktop/Google Drive/School/SU/IST 718/FInal Project/Data/ACS_11_1YR_S0201_with_ann.csv"), stringsAsFactors = FALSE)
-  census.raw <- read.csv(paste0("C:/Users/thema/Desktop/Google Drive/School/SU/IST 718/FInal Project/Data/ACS_",
+  census.raw <- read.csv(paste0("ACS_",
                                 x,"_1YR_S0201_with_ann.csv"), stringsAsFactors = FALSE)
   
   #preserve raw data
@@ -46,7 +46,7 @@ readData10_12 <- function(x)
 {
   #pull in information from csv
   #census.raw <- read.csv(paste0("C:/Users/thema/Desktop/Google Drive/School/SU/IST 718/FInal Project/Data/ACS_11_1YR_S0201_with_ann.csv"), stringsAsFactors = FALSE)
-  census.raw <- read.csv(paste0("C:/Users/thema/Desktop/Google Drive/School/SU/IST 718/FInal Project/Data/ACS_",
+  census.raw <- read.csv(paste0("ACS_",
                                 x,"_1YR_S0201_with_ann.csv"), stringsAsFactors = FALSE)
   
   #preserve raw data
@@ -80,7 +80,7 @@ readData13_14 <- function(x)
 {
   #pull in information from csv
   #census.raw <- read.csv(paste0("C:/Users/thema/Desktop/Google Drive/School/SU/IST 718/FInal Project/Data/ACS_13_1YR_S0201_with_ann.csv"), stringsAsFactors = FALSE)
-  census.raw <- read.csv(paste0("C:/Users/thema/Desktop/Google Drive/School/SU/IST 718/FInal Project/Data/ACS_",
+  census.raw <- read.csv(paste0("ACS_",
                                 x,"_1YR_S0201_with_ann.csv"), stringsAsFactors = FALSE)
   
   census <- census.raw
@@ -116,11 +116,11 @@ censusData2013 <-readData13_14(13)
 censusData2014 <-readData13_14(14)
 
 #bring in crime data
-crime2008 <- read.csv("C:/Users/thema/Desktop/Google Drive/School/SU/IST 718/FInal Project/Data/2008-CrimeOneYearofData.csv", stringsAsFactors = FALSE)
-crime2009 <- read.csv("C:/Users/thema/Desktop/Google Drive/School/SU/IST 718/FInal Project/Data/2009-CrimeOneYearofData.csv", stringsAsFactors = FALSE)
-crime2010 <- read.csv("C:/Users/thema/Desktop/Google Drive/School/SU/IST 718/FInal Project/Data/2010-CrimeOneYearofData.csv", stringsAsFactors = FALSE)
-crime2011 <- read.csv("C:/Users/thema/Desktop/Google Drive/School/SU/IST 718/FInal Project/Data/2011-CrimeOneYearofData.csv", stringsAsFactors = FALSE)
-crime2012 <- read.csv("C:/Users/thema/Desktop/Google Drive/School/SU/IST 718/FInal Project/Data/2012-CrimeOneYearofData.csv", stringsAsFactors = FALSE)
+crime2008 <- read.csv("2008-CrimeOneYearofData.csv", stringsAsFactors = FALSE)
+crime2009 <- read.csv("2009-CrimeOneYearofData.csv", stringsAsFactors = FALSE)
+crime2010 <- read.csv("2010-CrimeOneYearofData.csv", stringsAsFactors = FALSE)
+crime2011 <- read.csv("2011-CrimeOneYearofData.csv", stringsAsFactors = FALSE)
+crime2012 <- read.csv("2012-CrimeOneYearofData.csv", stringsAsFactors = FALSE)
 
 
 #add year to all the things
