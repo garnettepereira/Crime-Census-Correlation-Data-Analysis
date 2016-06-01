@@ -1,5 +1,5 @@
-# Crime-Education-Correlation-Data-Analysis
-Project which analyzes the correlation between crime and the education rate in the US for different years
+# Crime-Census-Correlation-Data-Analysis
+Project which analyzes the correlation between crime and census statistics in the US for different years, mainly the relation between the education and the crime rate.
 
 Datasets used:
 
